@@ -91,10 +91,11 @@
 ​	命令：git push origin master<br>
 ​	解释：master代表主分支，如要推送其他分支可以master换成相应的分支名，如：git push origin dev，就是推送dev分支。
 
-**16、当在github上删除了一些文件后，本地仓库数据和远程仓库数据不一致。
+**16、当在github上删除了一些文件后，本地仓库数据和远程仓库数据不一致。**
 
 下面两个操作可以同步仓库和本地的全部内容：
 
-先抓取并合并远程仓库全部内容git pull origin master
+1.先抓取并合并远程仓库全部内容git pull origin master
 
-再推送本地仓库数据git push origin master
+2.再推送本地仓库数据git push origin master
+
