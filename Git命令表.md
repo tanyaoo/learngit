@@ -1,3 +1,5 @@
+#git操作命令
+
 **1、创建repository：**
 
 ​	命令：mkdir  name<br>
@@ -94,8 +96,6 @@
 **16、当在github上删除了一些文件后，本地仓库数据和远程仓库数据不一致。**
 
 下面两个操作可以同步仓库和本地的全部内容：
-
 1.先抓取并合并远程仓库全部内容git pull origin master
-
 2.再推送本地仓库数据git push origin master
 
